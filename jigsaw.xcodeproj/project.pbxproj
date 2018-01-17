@@ -14,8 +14,12 @@
 		FA091E311FDE4523006BD8F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA091E2F1FDE4523006BD8F6 /* LaunchScreen.storyboard */; };
 		FA091E3C1FDE4523006BD8F6 /* jigsawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA091E3B1FDE4523006BD8F6 /* jigsawTests.swift */; };
 		FA091E471FDE4523006BD8F6 /* jigsawUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA091E461FDE4523006BD8F6 /* jigsawUITests.swift */; };
+		FA25A15C1FE2CEC700205CA1 /* optionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25A15B1FE2CEC700205CA1 /* optionViewController.swift */; };
+		FA25A15E1FE4E83500205CA1 /* selectEasyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25A15D1FE4E83500205CA1 /* selectEasyViewController.swift */; };
+		FA295D671FEB4887007F3178 /* 58639627.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA295D661FEB4887007F3178 /* 58639627.jpeg */; };
+		FA295D691FEB53F9007F3178 /* animal_p2.eps in Resources */ = {isa = PBXBuildFile; fileRef = FA295D681FEB53F9007F3178 /* animal_p2.eps */; };
+		FA33B7DC2006FFFC00CAB6D8 /* playEasyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA33B7DB2006FFFC00CAB6D8 /* playEasyViewController.swift */; };
 		FA3551451FDF6E2B00A88ACD /* difficultySelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3551441FDF6E2B00A88ACD /* difficultySelect.swift */; };
-		FA3551491FE20BCD00A88ACD /* optionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3551481FE20BCD00A88ACD /* optionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +53,12 @@
 		FA091E421FDE4523006BD8F6 /* jigsawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jigsawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA091E461FDE4523006BD8F6 /* jigsawUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jigsawUITests.swift; sourceTree = "<group>"; };
 		FA091E481FDE4523006BD8F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA25A15B1FE2CEC700205CA1 /* optionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = optionViewController.swift; sourceTree = "<group>"; };
+		FA25A15D1FE4E83500205CA1 /* selectEasyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectEasyViewController.swift; sourceTree = "<group>"; };
+		FA295D661FEB4887007F3178 /* 58639627.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 58639627.jpeg; path = ../../../Downloads/58639627.jpeg; sourceTree = "<group>"; };
+		FA295D681FEB53F9007F3178 /* animal_p2.eps */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = animal_p2.eps; path = "../../../som_pak-3.1/animal_p2.eps"; sourceTree = "<group>"; };
+		FA33B7DB2006FFFC00CAB6D8 /* playEasyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playEasyViewController.swift; sourceTree = "<group>"; };
 		FA3551441FDF6E2B00A88ACD /* difficultySelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = difficultySelect.swift; sourceTree = "<group>"; };
-		FA3551481FE20BCD00A88ACD /* optionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = optionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +109,15 @@
 		FA091E251FDE4523006BD8F6 /* jigsaw */ = {
 			isa = PBXGroup;
 			children = (
+				FA295D661FEB4887007F3178 /* 58639627.jpeg */,
+				FA295D681FEB53F9007F3178 /* animal_p2.eps */,
 				FA091E261FDE4523006BD8F6 /* AppDelegate.swift */,
 				FA091E281FDE4523006BD8F6 /* ViewController.swift */,
 				FA3551441FDF6E2B00A88ACD /* difficultySelect.swift */,
-				FA3551481FE20BCD00A88ACD /* optionViewController.swift */,
 				FA091E2A1FDE4523006BD8F6 /* Main.storyboard */,
+				FA33B7DB2006FFFC00CAB6D8 /* playEasyViewController.swift */,
+				FA25A15D1FE4E83500205CA1 /* selectEasyViewController.swift */,
+				FA25A15B1FE2CEC700205CA1 /* optionViewController.swift */,
 				FA091E2D1FDE4523006BD8F6 /* Assets.xcassets */,
 				FA091E2F1FDE4523006BD8F6 /* LaunchScreen.storyboard */,
 				FA091E321FDE4523006BD8F6 /* Info.plist */,
@@ -240,6 +252,8 @@
 			files = (
 				FA091E311FDE4523006BD8F6 /* LaunchScreen.storyboard in Resources */,
 				FA091E2E1FDE4523006BD8F6 /* Assets.xcassets in Resources */,
+				FA295D671FEB4887007F3178 /* 58639627.jpeg in Resources */,
+				FA295D691FEB53F9007F3178 /* animal_p2.eps in Resources */,
 				FA091E2C1FDE4523006BD8F6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,8 +279,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA25A15E1FE4E83500205CA1 /* selectEasyViewController.swift in Sources */,
 				FA3551451FDF6E2B00A88ACD /* difficultySelect.swift in Sources */,
-				FA3551491FE20BCD00A88ACD /* optionViewController.swift in Sources */,
+				FA33B7DC2006FFFC00CAB6D8 /* playEasyViewController.swift in Sources */,
+				FA25A15C1FE2CEC700205CA1 /* optionViewController.swift in Sources */,
 				FA091E291FDE4523006BD8F6 /* ViewController.swift in Sources */,
 				FA091E271FDE4523006BD8F6 /* AppDelegate.swift in Sources */,
 			);
